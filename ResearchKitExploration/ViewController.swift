@@ -7,8 +7,16 @@
 //
 
 import UIKit
+import ResearchKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,ORKTaskViewControllerDelegate {
+    
+    
+    
+    func taskViewController(_ taskViewController: ORKTaskViewController, didFinishWith reason: ORKTaskViewControllerFinishReason, error: Error?) {
+        taskViewController.dismiss(animated: true, completion: nil)
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +29,18 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func consentClicked(_ sender: UIButton) {
+        let taskViewController = ORKTaskViewController(task: ConsentTask, taskRun: nil)
+        taskViewController.delegate = self
+        present(taskViewController, animated: true, completion: nil)
+    }
+    
+    @IBAction func surveyClicked(_ sender: UIButton) {
+    }
+    
+    @IBAction func activeTaskClicked(_ sender: UIButton) {
+    }
+    
+    
 }
 
