@@ -76,6 +76,7 @@
 		73656BBF1FAE3BF900F69E0F /* ResearchKitExploration */ = {
 			isa = PBXGroup;
 			children = (
+				CEA7BB051FB128D200DCE167 /* Images */,
 				73656BC01FAE3BF900F69E0F /* AppDelegate.swift */,
 				73656BC21FAE3BF900F69E0F /* ViewController.swift */,
 				73656BC41FAE3BF900F69E0F /* Main.storyboard */,
@@ -87,6 +88,17 @@
 				CEA7BAFF1FB11A1B00DCE167 /* ActiveTask.swift */,
 			);
 			path = ResearchKitExploration;
+			sourceTree = "<group>";
+		};
+		CEA7BB051FB128D200DCE167 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEA7BB091FB1290E00DCE167 /* angry.jpg */,
+				CEA7BB0B1FB1290E00DCE167 /* happy.jpeg */,
+				CEA7BB0A1FB1290E00DCE167 /* sad.png */,
+			);
+			name = Images;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		D665AECD20C307EA7DDEB67B /* Frameworks */ = {
@@ -160,6 +172,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				73656BCB1FAE3BFA00F69E0F /* LaunchScreen.storyboard in Resources */,
+				CEA7BB0C1FB1290E00DCE167 /* angry.jpg in Resources */,
+				CEA7BB0E1FB1290E00DCE167 /* happy.jpeg in Resources */,
+				CEA7BB0D1FB1290E00DCE167 /* sad.png in Resources */,
 				73656BC81FAE3BFA00F69E0F /* Assets.xcassets in Resources */,
 				73656BC61FAE3BF900F69E0F /* Main.storyboard in Resources */,
 			);
