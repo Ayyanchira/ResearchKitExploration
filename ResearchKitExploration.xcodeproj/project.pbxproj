@@ -15,6 +15,7 @@
 		A6ABF58069DC919FC518165C /* Pods_ResearchKitExploration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9913AC372F33A064930F49 /* Pods_ResearchKitExploration.framework */; };
 		CEA7BAFC1FB10B7600DCE167 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7BAFB1FB10B7600DCE167 /* ConsentTask.swift */; };
 		CEA7BAFE1FB111D800DCE167 /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7BAFD1FB111D800DCE167 /* SurveyTask.swift */; };
+		CEA7BB001FB11A1B00DCE167 /* ActiveTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7BAFF1FB11A1B00DCE167 /* ActiveTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BF9913AC372F33A064930F49 /* Pods_ResearchKitExploration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResearchKitExploration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA7BAFB1FB10B7600DCE167 /* ConsentTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 		CEA7BAFD1FB111D800DCE167 /* SurveyTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
+		CEA7BAFF1FB11A1B00DCE167 /* ActiveTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveTask.swift; sourceTree = "<group>"; };
 		D56F8B05AC3D4F67D8FD5A76 /* Pods-ResearchKitExploration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResearchKitExploration.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResearchKitExploration/Pods-ResearchKitExploration.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 				73656BCC1FAE3BFA00F69E0F /* Info.plist */,
 				CEA7BAFB1FB10B7600DCE167 /* ConsentTask.swift */,
 				CEA7BAFD1FB111D800DCE167 /* SurveyTask.swift */,
+				CEA7BAFF1FB11A1B00DCE167 /* ActiveTask.swift */,
 			);
 			path = ResearchKitExploration;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA7BB001FB11A1B00DCE167 /* ActiveTask.swift in Sources */,
 				CEA7BAFE1FB111D800DCE167 /* SurveyTask.swift in Sources */,
 				CEA7BAFC1FB10B7600DCE167 /* ConsentTask.swift in Sources */,
 				73656BC31FAE3BF900F69E0F /* ViewController.swift in Sources */,
