@@ -15,6 +15,9 @@
 		A6ABF58069DC919FC518165C /* Pods_ResearchKitExploration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9913AC372F33A064930F49 /* Pods_ResearchKitExploration.framework */; };
 		CEA7BAFC1FB10B7600DCE167 /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7BAFB1FB10B7600DCE167 /* ConsentTask.swift */; };
 		CEA7BAFE1FB111D800DCE167 /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7BAFD1FB111D800DCE167 /* SurveyTask.swift */; };
+		CEA7BB0C1FB1290E00DCE167 /* angry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEA7BB091FB1290E00DCE167 /* angry.jpg */; };
+		CEA7BB0D1FB1290E00DCE167 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA7BB0A1FB1290E00DCE167 /* sad.png */; };
+		CEA7BB0E1FB1290E00DCE167 /* happy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEA7BB0B1FB1290E00DCE167 /* happy.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		BF9913AC372F33A064930F49 /* Pods_ResearchKitExploration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ResearchKitExploration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA7BAFB1FB10B7600DCE167 /* ConsentTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
 		CEA7BAFD1FB111D800DCE167 /* SurveyTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
+		CEA7BB091FB1290E00DCE167 /* angry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = angry.jpg; path = ResearchKitExploration/Images/angry.jpg; sourceTree = SOURCE_ROOT; };
+		CEA7BB0A1FB1290E00DCE167 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sad.png; path = ResearchKitExploration/Images/sad.png; sourceTree = SOURCE_ROOT; };
+		CEA7BB0B1FB1290E00DCE167 /* happy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = happy.jpeg; path = ResearchKitExploration/Images/happy.jpeg; sourceTree = SOURCE_ROOT; };
 		D56F8B05AC3D4F67D8FD5A76 /* Pods-ResearchKitExploration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResearchKitExploration.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResearchKitExploration/Pods-ResearchKitExploration.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +80,7 @@
 		73656BBF1FAE3BF900F69E0F /* ResearchKitExploration */ = {
 			isa = PBXGroup;
 			children = (
+				CEA7BB051FB128D200DCE167 /* Images */,
 				73656BC01FAE3BF900F69E0F /* AppDelegate.swift */,
 				73656BC21FAE3BF900F69E0F /* ViewController.swift */,
 				73656BC41FAE3BF900F69E0F /* Main.storyboard */,
@@ -84,6 +91,17 @@
 				CEA7BAFD1FB111D800DCE167 /* SurveyTask.swift */,
 			);
 			path = ResearchKitExploration;
+			sourceTree = "<group>";
+		};
+		CEA7BB051FB128D200DCE167 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEA7BB091FB1290E00DCE167 /* angry.jpg */,
+				CEA7BB0B1FB1290E00DCE167 /* happy.jpeg */,
+				CEA7BB0A1FB1290E00DCE167 /* sad.png */,
+			);
+			name = Images;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		D665AECD20C307EA7DDEB67B /* Frameworks */ = {
@@ -157,6 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				73656BCB1FAE3BFA00F69E0F /* LaunchScreen.storyboard in Resources */,
+				CEA7BB0C1FB1290E00DCE167 /* angry.jpg in Resources */,
+				CEA7BB0E1FB1290E00DCE167 /* happy.jpeg in Resources */,
+				CEA7BB0D1FB1290E00DCE167 /* sad.png in Resources */,
 				73656BC81FAE3BFA00F69E0F /* Assets.xcassets in Resources */,
 				73656BC61FAE3BF900F69E0F /* Main.storyboard in Resources */,
 			);
