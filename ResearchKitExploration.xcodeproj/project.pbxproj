@@ -20,6 +20,7 @@
 		CEA7BB0E1FB1290E00DCE167 /* happy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEA7BB0B1FB1290E00DCE167 /* happy.jpeg */; };
 		CEA7BB101FB129CD00DCE167 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7BB0F1FB129CD00DCE167 /* LoginViewController.swift */; };
 		CEA7BB121FB12BD900DCE167 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7BB111FB12BD900DCE167 /* SurveyViewController.swift */; };
+		CEA7BB141FB134E500DCE167 /* Survey_HScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7BB131FB134E500DCE167 /* Survey_HScale.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		CEA7BB0B1FB1290E00DCE167 /* happy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = happy.jpeg; path = ResearchKitExploration/Images/happy.jpeg; sourceTree = SOURCE_ROOT; };
 		CEA7BB0F1FB129CD00DCE167 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CEA7BB111FB12BD900DCE167 /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
+		CEA7BB131FB134E500DCE167 /* Survey_HScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey_HScale.swift; sourceTree = "<group>"; };
 		D56F8B05AC3D4F67D8FD5A76 /* Pods-ResearchKitExploration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResearchKitExploration.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResearchKitExploration/Pods-ResearchKitExploration.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,9 +93,10 @@
 				73656BC91FAE3BFA00F69E0F /* LaunchScreen.storyboard */,
 				73656BCC1FAE3BFA00F69E0F /* Info.plist */,
 				CEA7BAFB1FB10B7600DCE167 /* ConsentTask.swift */,
-				CEA7BAFD1FB111D800DCE167 /* SurveyTask.swift */,
 				CEA7BB0F1FB129CD00DCE167 /* LoginViewController.swift */,
 				CEA7BB111FB12BD900DCE167 /* SurveyViewController.swift */,
+				CEA7BB131FB134E500DCE167 /* Survey_HScale.swift */,
+				CEA7BAFD1FB111D800DCE167 /* SurveyTask.swift */,
 				CEA7BB051FB128D200DCE167 /* Images */,
 			);
 			path = ResearchKitExploration;
@@ -252,6 +255,7 @@
 			files = (
 				CEA7BAFE1FB111D800DCE167 /* SurveyTask.swift in Sources */,
 				CEA7BAFC1FB10B7600DCE167 /* ConsentTask.swift in Sources */,
+				CEA7BB141FB134E500DCE167 /* Survey_HScale.swift in Sources */,
 				73656BC31FAE3BF900F69E0F /* ViewController.swift in Sources */,
 				CEA7BB101FB129CD00DCE167 /* LoginViewController.swift in Sources */,
 				CEA7BB121FB12BD900DCE167 /* SurveyViewController.swift in Sources */,

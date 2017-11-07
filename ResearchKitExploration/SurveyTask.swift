@@ -15,7 +15,7 @@ public var SurveyTask: ORKOrderedTask {
     //Introduction
     let instructionStep = ORKInstructionStep(identifier: "IntroStep")
     instructionStep.title = "Test Survey"
-    instructionStep.text = "Answer three questions to complete the survey."
+    instructionStep.text = "We need to collect just a little health information from you before we begin. Circle the correct "
     steps += [instructionStep]
     
     //Text Input Question

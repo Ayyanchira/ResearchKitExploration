@@ -26,6 +26,11 @@ class SurveyViewController: UIViewController, ORKTaskViewControllerDelegate {
         taskViewController.dismiss(animated: true, completion: nil)
     }
 
+    @IBAction func beginSurveyPressed(_ sender: UIButton) {
+        let taskViewController = ORKTaskViewController(task: Survey_HScale, taskRun: nil)
+        taskViewController.delegate = self
+        present(taskViewController, animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 
