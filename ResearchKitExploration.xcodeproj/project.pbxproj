@@ -18,6 +18,8 @@
 		CEA7BB0C1FB1290E00DCE167 /* angry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEA7BB091FB1290E00DCE167 /* angry.jpg */; };
 		CEA7BB0D1FB1290E00DCE167 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA7BB0A1FB1290E00DCE167 /* sad.png */; };
 		CEA7BB0E1FB1290E00DCE167 /* happy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEA7BB0B1FB1290E00DCE167 /* happy.jpeg */; };
+		CEA7BB101FB129CD00DCE167 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7BB0F1FB129CD00DCE167 /* LoginViewController.swift */; };
+		CEA7BB121FB12BD900DCE167 /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7BB111FB12BD900DCE167 /* SurveyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		CEA7BB091FB1290E00DCE167 /* angry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = angry.jpg; path = ResearchKitExploration/Images/angry.jpg; sourceTree = SOURCE_ROOT; };
 		CEA7BB0A1FB1290E00DCE167 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sad.png; path = ResearchKitExploration/Images/sad.png; sourceTree = SOURCE_ROOT; };
 		CEA7BB0B1FB1290E00DCE167 /* happy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = happy.jpeg; path = ResearchKitExploration/Images/happy.jpeg; sourceTree = SOURCE_ROOT; };
+		CEA7BB0F1FB129CD00DCE167 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CEA7BB111FB12BD900DCE167 /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
 		D56F8B05AC3D4F67D8FD5A76 /* Pods-ResearchKitExploration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ResearchKitExploration.release.xcconfig"; path = "Pods/Target Support Files/Pods-ResearchKitExploration/Pods-ResearchKitExploration.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +84,6 @@
 		73656BBF1FAE3BF900F69E0F /* ResearchKitExploration */ = {
 			isa = PBXGroup;
 			children = (
-				CEA7BB051FB128D200DCE167 /* Images */,
 				73656BC01FAE3BF900F69E0F /* AppDelegate.swift */,
 				73656BC21FAE3BF900F69E0F /* ViewController.swift */,
 				73656BC41FAE3BF900F69E0F /* Main.storyboard */,
@@ -89,6 +92,9 @@
 				73656BCC1FAE3BFA00F69E0F /* Info.plist */,
 				CEA7BAFB1FB10B7600DCE167 /* ConsentTask.swift */,
 				CEA7BAFD1FB111D800DCE167 /* SurveyTask.swift */,
+				CEA7BB0F1FB129CD00DCE167 /* LoginViewController.swift */,
+				CEA7BB111FB12BD900DCE167 /* SurveyViewController.swift */,
+				CEA7BB051FB128D200DCE167 /* Images */,
 			);
 			path = ResearchKitExploration;
 			sourceTree = "<group>";
@@ -247,6 +253,8 @@
 				CEA7BAFE1FB111D800DCE167 /* SurveyTask.swift in Sources */,
 				CEA7BAFC1FB10B7600DCE167 /* ConsentTask.swift in Sources */,
 				73656BC31FAE3BF900F69E0F /* ViewController.swift in Sources */,
+				CEA7BB101FB129CD00DCE167 /* LoginViewController.swift in Sources */,
+				CEA7BB121FB12BD900DCE167 /* SurveyViewController.swift in Sources */,
 				73656BC11FAE3BF900F69E0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
