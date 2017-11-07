@@ -25,7 +25,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginButtonPressed(_ sender: UIButton) {
         if usernameTextField.text == "akshay" && passwordTeXtField.text == "password"{
-            
+            performSegue(withIdentifier: "loginSuccessfull", sender: nil)
         }
     }
     
